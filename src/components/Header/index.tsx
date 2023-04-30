@@ -8,7 +8,7 @@ const Header: React.FC<{ currentTab: string }> = ({ currentTab }) => (
     <Tabs
       options={[
         { title: 'Heroes', link: '/Heroes' },
-        { title: 'Create Hero', link: '/Category' },
+        { title: 'Category', link: '/Category' },
       ]}
       currentTab={currentTab}
     />
