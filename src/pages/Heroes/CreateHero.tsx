@@ -57,7 +57,7 @@ export default function CreateHero() {
     <>
       <Title>Create Hero</Title>
       <FormContainer
-        onSubmit={handleSubmit(onSubmit, (errors) => console.log(errors))}
+        onSubmit={handleSubmit(onSubmit)}
       >
         <FormLabel>
           Name:

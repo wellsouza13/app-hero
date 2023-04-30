@@ -65,7 +65,7 @@ export default function EditCategory() {
     <>
       <Title>Edit Categorie</Title>
       <FormContainer
-        onSubmit={handleSubmit(onSubmit, (errors) => console.log(errors))}
+        onSubmit={handleSubmit(onSubmit)}
       >
         <FormLabel>
           Name:

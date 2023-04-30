@@ -23,13 +23,11 @@ const AsyncSelect: React.FC<IProps> = ({ fetchOptions, onChange, value }) => {
     (async () => {
       setLoading(true);
       const response = await fetchOptions();
-      console.log("response", response)
       if (active) {
         const formattedResponse = response?.Items.map((item: any) => ({
           value: item.Id,
           label: item.Name,
         }));
-        console.log(response);
 
         setOptions(formattedResponse);
         setLoading(false);

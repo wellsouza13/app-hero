@@ -47,7 +47,7 @@ export default function CreateCategory() {
     <>
       <Title>Create Categorie</Title>
       <FormContainer
-        onSubmit={handleSubmit(onSubmit, (errors) => console.log(errors))}
+        onSubmit={handleSubmit(onSubmit)}
       >
         <FormLabel>
           Name:
