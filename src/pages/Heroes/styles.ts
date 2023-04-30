@@ -22,9 +22,10 @@ export const DashboardContainer = styled.div`
 export const HeaderTablelContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  padding: 32px;
+  align-items: center;
 
   @media (max-width: 768px) {
-    padding: 20px;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -32,8 +33,8 @@ export const HeaderTablelContainer = styled.div`
 `;
 
 export const Title = styled.h3`
+padding-top: 32px;
   @media (max-width: 768px) {
-    padding-top: 20px;
   }
 `;
 
